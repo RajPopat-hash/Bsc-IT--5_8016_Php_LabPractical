@@ -30,11 +30,6 @@
         </form>
         <?php
             $array = $_GET['arr'];
-            echo "<h3>Original Array:</h3><br>";
-                foreach ($array as $ele) {
-                    echo $ele . "<br>";
-                }
-            echo "<h3>Reversed Array:</h3><br>";
             $array=array_reverse($array);
              foreach ($array as $ele) {
                 echo $ele . "<br>";
